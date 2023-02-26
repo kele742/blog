@@ -1,4 +1,7 @@
 
+body{
+    background: url("../images/background-index-leaves.png");
+}
 .m-padded-tb-mini{
     padding-top: 0.2em !important;
     padding-bottom: 0.2em !important;
@@ -13,7 +16,7 @@
 }
 .m-padded-to-massive{
     padding-top: 5em !important;
-    padding-bottom: 5em !important;
+    padding-bottom: 2em !important;
 }
 .m-text{
     font-weight: 300 !important;
@@ -53,6 +56,11 @@
 
 .m-margin-top-large{
 margin-top: 2em !important;
+}
+
+/*透明度设置*/
+.m-opacity-mini{
+    opacity: 0.6 !important;
 }
 
 /*position*/
