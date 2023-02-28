@@ -10,7 +10,7 @@
 <body>
 
 <!--    导航-->
-    <nav class="ui attached segment m-padded-tb-mini" style="background-color: lightgray" >
+    <nav class="ui attached segment m-padded-tb-mini " style="background-color: lightgray" >
         <div class="ui container">
             <div class="ui  secondary stackable menu">
                 <h2 class="ui teal header item">Blog</h2>
@@ -33,7 +33,7 @@
         </a>
     </nav>
 <!--    中间内容-->
-    <div class="m-container-small">
+    <div class="m-container-small m-padded-to-massive">
 <!--        头部-->
         <div class="ui container">
             <div class="ui top attached segment">
@@ -62,14 +62,14 @@
                 <h4 class="ui center aligned header">解决行为问题的3个步骤</h4>
 
                 <br>
-                <div id="content" class="m-padded-lr m-padded-tb-large">
+                <div id="content" class="m-padded-lr-responsive m-padded-tb-large">
                     <p>大多数人都以为要想实施某种行为，就必领先解决动机问题，但实际上它是最后一步要解快的问题。不管是在工作还是生活中，这个问题解决步骤都可以为你省去不少麻烦。</p>
                     <h2>1</h2>
                     <p>当你把这种问题解决方法用于自身行为时，会发现这能让你不再自责。比如，你打算早上冥想，结果却没做，与其费怪自己缺少意志力或动力，不如逐一确认以下几个问题：有没有什么可以提示你？是什么让这件事变得难以做到？在多数情况下，有些行为难以做到的根本原因不是缺乏动机。只要找到一个好的提示，或是让行为更容易做到，就能解决行为问题。</p>
                     <p>即便有些时候凯蒂的动机会减弱，但因为整理任务的难度很低，所以不会给凯蒂造成很大压力，她就更容易开始做这个工作。关键在于，如果一开姶她选择打扫整间办公室，这个行为可能就会很难变成一种习惯，因为每当她感到时间紧促之时，就会跳过这个行为。</p>
                 </div>
 <!--                标签-->
-                <div class="m-padded-lr">
+                <div class="m-padded-lr-responsive">
                     <div class="ui basic orange left pointing label">方法论</div>
                 </div>
 
@@ -95,13 +95,120 @@
 
             </div>
             <div class="ui attached positive message">
-                博客信息
+<!--                博客信息-->
+                <div class="ui middle aligned grid">
+                    <div class="eleven wide column">
+                        <ui class="list">
+                            <li>作者:徐欣阳（联系作者）</li>
+                            <li>发表时间:2023-2-28 11:28</li>
+                            <li>版权声明:自由转载-非商用-非衍生-保持著名（创意共享）</li>
+                        </ui>
+                    </div>
+                    <div class="five wide column">
+                        <img src="./static/images/wechat.jpg" alt="" class="ui right floated rounded bordered image" style="width: 110px">
+                    </div>
+                </div>
             </div>
             <div class="ui bottom attached segment">
-                留言区域
+<!--                留言区域-->
+                <div class="ui orange segment">
+                    <div class="ui threaded comments">
+                        <h3 class="ui dividing header">Comments</h3>
+                        <div class="comment">
+                            <a class="avatar">
+                                <img src="./static/images/leaves-pattern.png" alt="">
+                            </a>
+                            <div class="content">
+                                <a class="author">Matt</a>
+                                <div class="metadata">
+                                    <span class="date">Today at 5:20AM</span>
+                                </div>
+                                <div class="text">
+                                    How artistic!
+                                </div>
+                                <div class="actions">
+                                    <a class="reply">回复</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <a class="avatar">
+                                <img src="./static/images/leaves-pattern.png" alt="">
+                            </a>
+                            <div class="content">
+                                <a class="author">Elliot Fu</a>
+                                <div class="metadata">
+                                    <span class="date">Yesterday at 12:30AM</span>
+                                </div>
+                                <div class="text">
+                                    <p>This has been very useful for my research.Thanks as well!</p>
+                                </div>
+                                <div class="actions">
+                                    <a class="reply">回复</a>
+                                </div>
+                            </div>
+                            <div class="comments">
+                                <div class="comment">
+                                    <a class="avatar">
+                                        <img src="./static/images/leaves-pattern.png" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <a class="author">Jenny Hess</a>
+                                        <div class="metadata">
+                                            <span class="date">Just Now</span>
+                                        </div>
+                                        <div class="text">
+                                            Elliot you are always so right!
+                                        </div>
+                                        <div class="actions">
+                                            <a class="reply">回复</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <a class="avatar">
+                                <img src="./static/images/leaves-pattern.png" alt="">
+                            </a>
+                            <div class="content">
+                                <a class="author">Joe Henderson</a>
+                                <div class="metadata">
+                                    <span class="date">5days ago</span>
+                                </div>
+                                <div class="text">
+                                    Dude,this is awesome.Thanks
+                                </div>
+                                <div class="actions">
+                                    <a class="reply">回复</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui form">
+                    <div class="field">
+                        <label><textarea name="content" placeholder="请输入评论信息..."></textarea></label>
+                    </div>
+                    <div class="fields">
+                        <div class="field m-mobile-wide m-margin-bottom-small">
+                            <div class="ui left icon input">
+                                <i class="user icon"></i>
+                                <label><input type="text" name="nickname" placeholder="姓名"></label>
+                            </div>
+                        </div>
+                        <div class="field m-mobile-wide m-margin-bottom-small">
+                            <div class="ui left icon input">
+                                <i class="mail icon"></i>
+                                <label><input type="text" name="email" placeholder="邮箱"></label>                            </div>
+                        </div>
+                        <div class="field m-mobile-wide m-margin-bottom-small">
+                            <button class="ui lightgray button m-mobile-wide"><i class="edit icon"></i>发布</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
 
     <br>
